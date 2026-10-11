@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#081019">
+    <meta name="description" content="Download Crypto Signal Desk, a Windows crypto market dashboard with TradingView charts, an editable watchlist, and a transparent multi-strategy market scan.">
+    <title>Crypto Signal Desk — Market clarity, at a glance</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="download-config.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Crypto Signal Desk home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 24.5 16.2 16l6.1 6.2L32 12" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M24.5 12H32v7.5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="29" r="2" fill="currentColor"/></svg>
+          </span>
+          <span class="brand-name">Crypto Signal <b>Desk</b></span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a class="nav-download" href="#download">Get the app <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-wrap">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> Your crypto market workspace</div>
+            <h1>Make sense of the market. <span>Plan every move.</span></h1>
+            <p class="hero-lede">Explore crypto markets, read the chart, and compare rule-based setups in one focused desktop app.</p>
+            <div class="hero-actions" id="download">
+              <a class="button button-primary" id="windows-download" href="downloads/Crypto-Signal-Desk-1.2.0.exe" download>
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v4h14v-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span><strong>Download for Windows</strong><small>Portable app · 64-bit</small></span>
+              </a>
+              <a class="button button-secondary" id="source-download" href="downloads/CryptoSignalDesk-source.zip" download>Source code <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="download-meta"><span class="meta-version" id="version-label">Version 1.2.0</span><span class="meta-sep">·</span><span id="download-size">About 81 MB</span><span class="meta-sep">·</span>Windows 10/11</p>
+            <div class="trust-line"><span class="trust-icon">✓</span> No exchange login. No trade execution. Your watchlist stays on your PC.</div>
+            <p class="config-note" id="config-note" role="status" hidden></p>
+          </div>
+
+          <div class="hero-visual" aria-label="Illustration of the Crypto Signal Desk desktop app">
+            <div class="visual-glow"></div>
+            <div class="app-window">
+              <div class="window-bar">
+                <div class="window-brand"><span class="mini-mark">↗</span> SIGNAL DESK</div>
+                <div class="window-menu"><span>Markets</span><span>Charts</span><span class="menu-active">Best buys</span></div>
+                <div class="window-controls"><i></i><i></i><i></i></div>
+              </div>
+              <div class="app-content">
+                <div class="app-heading"><div><span class="tiny-label">LIVE RULE SCAN</span><h2>Best buys now</h2></div><span class="live-chip"><i></i> MARKET DATA</span></div>
+                <div class="horizon-row"><span>TIME HORIZON</span><b>Swing · 4h / 1d <span>⌄</span></b></div>
+                <div class="signal-card">
+                  <div class="coin-avatar">₿</div>
+                  <div class="signal-name"><strong>Example setup</strong><small>Illustrative preview</small></div>
+                  <span class="signal-tag">RULE MATCH</span>
+                </div>
+                <div class="preview-chart">
+                  <div class="chart-grid"><i></i><i></i><i></i></div>
+                  <svg viewBox="0 0 600 150" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="chartfill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#54e2b2" stop-opacity=".22"/><stop offset="1" stop-color="#54e2b2" stop-opacity="0"/></linearGradient></defs><path d="M0 120 C34 112 35 98 68 104 S102 118 130 96 S172 105 197 78 S230 95 261 69 S300 82 325 62 S353 73 382 55 S425 68 452 37 S485 56 512 35 S560 50 600 13 V150 H0Z" fill="url(#chartfill)"/><path d="M0 120 C34 112 35 98 68 104 S102 118 130 96 S172 105 197 78 S230 95 261 69 S300 82 325 62 S353 73 382 55 S425 68 452 37 S485 56 512 35 S560 50 600 13" fill="none" stroke="#57dfb0" stroke-width="3" vector-effect="non-scaling-stroke"/></svg>
+                  <div class="chart-caption"><span>Price action</span><span>Trend · momentum · risk</span></div>
+                </div>
+                <div class="preview-stats"><div><small>ENTRY</small><b>Market price</b></div><div><small>STOP</small><b>ATR-based</b></div><div><small>TARGET</small><b>2R example</b></div></div>
+                <div class="preview-foot"><span>Preview only · no live signal shown</span><span class="preview-live-dot"></span></div>
+              </div>
+            </div>
+            <div class="float-card float-card-top"><span class="float-icon">⌁</span><span><b>Multi-strategy scan</b><small>Markets screened independently</small></span></div>
+            <div class="float-card float-card-bottom"><span class="risk-icon">◎</span><span><b>Risk-first planning</b><small>Choose your own budget</small></span></div>
+            <p class="visual-note">Illustrative interface preview. No live price or recommendation is shown.</p>
+          </div>
+        </section>
+
+        <section class="feature-strip section-wrap" id="features" aria-label="App highlights">
+          <article class="feature-item"><span class="feature-icon icon-chart">⌁</span><div><h3>Charts in your workflow</h3><p>Open interactive TradingView charts and explore supported markets.</p></div></article>
+          <article class="feature-item"><span class="feature-icon icon-scan">◉</span><div><h3>Scan beyond your list</h3><p>Best Buys checks liquid Binance Spot USDT markets independently of your watchlist.</p></div></article>
+          <article class="feature-item"><span class="feature-icon icon-risk">⌖</span><div><h3>See the risk levels</h3><p>Compare example entry, stop, target, and a budget-based position estimate.</p></div></article>
+        </section>
+
+        <section class="strategies section-wrap" id="how-it-works">
+          <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span> Simple by design</div><h2>From market scan to a clearer plan.</h2></div><p>The app brings a few useful steps together so you can inspect a setup before deciding what to do.</p></div>
+          <div class="steps-grid">
+            <article class="step-card"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Pick a horizon</h3><p>Switch between short-term, swing, and long-term rule sets to match the timeframe you want to review.</p></article>
+            <article class="step-card"><span class="step-number">02</span><div class="step-icon step-icon-green">⌁</div><h3>Compare strategies</h3><p>Trend, breakout, pullback, and Bollinger rebound rules look for different kinds of market conditions.</p></article>
+            <article class="step-card"><span class="step-number">03</span><div class="step-icon step-icon-amber">◎</div><h3>Plan your risk</h3><p>Use the example stop and target as a starting point, then estimate position size from a budget you enter.</p></article>
+          </div>
+        </section>
+
+        <section class="download-band section-wrap">
+          <div class="download-band-glow"></div>
+          <div class="download-band-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> Built for Windows</div><h2>Your market desk, ready when you are.</h2><p>Download the portable app and start exploring with public market data. No installation wizard or exchange account required.</p></div>
+          <div class="download-band-action"><a class="button button-primary" href="downloads/Crypto-Signal-Desk-1.2.0.exe" id="windows-download-bottom" download><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v4h14v-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Download Crypto Signal Desk</strong><small id="bottom-version">Version 1.2.0 · Windows 64-bit</small></span></a><small class="windows-note">The app is not code-signed. Windows may show a publisher confirmation.</small></div>
+        </section>
+
+        <section class="fine-print section-wrap"><span class="fine-icon">i</span><p>Crypto markets are volatile. The app presents transparent, rules-based research signals—not guaranteed predictions or individualized financial advice. Scores are not probabilities or win rates. Example levels may not account for fees, slippage, gaps, or funding, and small budgets can still lose money. Signals use Binance Spot USDT market data; price and availability can vary by exchange and region.</p></section>
+      </main>
+
+      <footer class="footer section-wrap"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M8 24.5 16.2 16l6.1 6.2L32 12" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M24.5 12H32v7.5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="29" r="2" fill="currentColor"/></svg></span><span class="brand-name">Crypto Signal <b>Desk</b></span></a><span>Market research, made easier to read.</span><a href="#download">Download app ↑</a></footer>
+    </div>
+  </body>
+</html>
